@@ -6,71 +6,71 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "texto01",
+        enunciado: "É permitido sair da escola durante o recreio?",
         alternativas: [
             {
-                texto:'alternativa01',
-                afirmacao: 'afirmação01'
+                texto:'Sim',
+                afirmacao: 'É possível com autorização do responsavél'
             },
             {
-                texto:'alternativa02',
-                afirmacao: 'afirmação02'
+                texto:'Não',
+                afirmacao: 'Nâo e possível sem uma autorização'
             }
             
         ]
     },
     {
-        enunciado: "texto02",
+        enunciado: "Na escola é permitido o porte de arma?",
         alternativas: [
             {
-                texto:'alternativa03',
-                afirmacao: 'afirmação03'
+                texto:'Sim',
+                afirmacao: 'Errado, não e permitido o uso de qualquer tipo de arma'
             },
             {
-                texto:'alternativa04',
-                afirmacao: 'afirmação04'
+                texto:'Não',
+                afirmacao: 'Correto somente no exercito e permitido, o uso de armas para combate '
             }
             
         ]
     },
     {
-        enunciado: "texto03",
+        enunciado: "É possivél ter aula no sabádo e domingo nas escolas?",
         alternativas: [
             {
-                texto:'alternativa05',
-                afirmacao: 'afirmação05'
+                texto:'Sim',
+            afirmacao: 'sim, Mas somente para eventos ou cursos na escola'
             },
             {
-                texto:'alternativa06',
-                afirmacao: 'afirmação06'
+                texto:'Não',
+                afirmacao: 'Em algumas escolas nem eventos ou cursos a escola abre'
             }
             
         ]
     },
     {
-        enunciado: "texto04",
+        enunciado: "Quais regras nas escolas Cívico militar",
         alternativas: [
             {
-                texto:'alternativa07',
-                afirmacao: 'afirmação07'
+                texto:'todos desorganizados,sem roupa do colégio qualquer corte de cabelo?',
+                afirmacao: 'Errado, todos devem estar nos conformes das regras da escola '
             },
             {
-                texto:'alternativa08',
-                afirmacao: 'afirmação08'
+                texto:'Corte de cabelo padrão militar,vestidos com as fardas escolares e organizados',
+                afirmacao: 'Correto, Assim todos ficam nos conformes das regras da escola'
             }
             
         ]
     },
     {
-        enunciado: "texto05",
+        enunciado: "É permitido o uso de celular no colégio",
         alternativas: [
             {
-                texto:'alternativa09',
-                afirmacao: 'afirmação09'
+                texto:'Sim',
+                afirmacao: 'Sim,é permitido em horas vagas como exemplo o recreio'
             },
             {
-                texto:'alternativa10',
-                afirmacao: 'afirmação10'
+                texto:'Não',
+                afirmacao: 'Não e permitido o uso de celular nas aulas sem autorização do professor'
             }
             
         ]
